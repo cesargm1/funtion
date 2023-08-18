@@ -4,10 +4,9 @@
 // var  pepe = "hola me llamo pepe";
 // var mun = 55;
 // var bolean = false;
-// var  notdefined = undefined; 
+// var  notdefined = undefined;
 
 // console.log(typeof text); // hola
-
 
 //  let behindCount = 10
 
@@ -17,13 +16,11 @@
 //     console.log(behindCount + " segundos")
 //  }
 
-
 // let numero = 0
 // while(numero< 10){
 //     numero++
 //     console.log(numero)
 // }
-
 
 //  let behindCount = 10
 
@@ -37,9 +34,6 @@
 //         break
 //     }
 //   }
-
-
-
 
 // revisar mañana
 
@@ -56,28 +50,26 @@
 //     console.log(behindCount)
 //  }
 
-
 // function saludar(){
 //    document.write("holi pedro")
 // }
 // saludar()
 
-
 // function addition(){
-//     return 1+1 
+//     return 1+1
 // }
 
 // const result = addition()
 
 // document.write (result)
 
-
-function GetRandomNumber(){
-    const random = Math.random()
-    const multiplied = random * 10
-    const ronded = Math.floor(multiplied) 
-    const result = ronded + 1
-    return result
+function GetRandomNumber() {
+	const random = Math.random();
+	const multiplied = random * 10;
+	const ronded = Math.floor(multiplied);
+	const result = ronded + 1;
+	return result;
 }
 
-result()
+const result = GetRandomNumber();
+document.write(result);
